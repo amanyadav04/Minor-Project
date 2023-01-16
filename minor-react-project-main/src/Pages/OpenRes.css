@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.resDes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    width: 80%;
+    height: 32vh;
+    
+    margin-top: -169px;
+    background-color: rgb(167, 255, 226);
+    padding: 12px;
+    position: sticky;
+    top: 2%;
+    left: 10%;
+    
+}
+.resDes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    width: 80%;
+    height: 32vh;
+
+    
+    margin-top: -169px;
+    background-color: rgb(167, 255, 226);
+    padding: 12px;
+    position: sticky;
+    top: 2%;
+    left: 10%;
+    
+}
+
+
+.resImg {
+    background-color: aqua;
+    border-radius: 7px;
+    width: 27%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/p0hvhidw1ehcrza3rzk8);
+    background-size: cover;
+}
+
+
+.descrp {
+    /* height: 266px; */
+    padding: 19px 12px;
+}
+.descrp>h2{
+    font-weight: 500;
+    font-size: 166%;
+}
+
+.menu-container{
+    
+   
+    
+    
+    padding: 8px 8px;
+    width: 70%;
+    
+    max-height: 58vh;
+    overflow: scroll;
+   
+}
+.menu-container::-webkit-scrollbar{
+    background-color: #ffff;
+    width: 6px;
+    height: 0px;
+}
+.menu-container::-webkit-scrollbar-thumb{
+    background-color: #10134a38;
+    border-radius: 38px;
+}
+.buttons{
+    padding: 26px;
+    position: sticky;
+    top: 194px;
+    margin: 0px 33px;
+}
+
+
+.menu{
+      position: relative;
+}
+.details{
+    margin-left: 17px;
+}
+.route-btn{
+    background: #3d5b8f;
+    border: none;
+    padding: 9px 19px;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+
+
+
+.image-holder{
+    
+    height: 248px;
+    background-color: #304569;
+    position: sticky;
+    top: -9px;
+    
+}
+
+.cart{
+    
+    width: 30%;
+    text-align: center;
+}
+.menu-cart-container{
+    display: flex;
+    padding:0px 57px
+}
+
+
+.AddtoCart {
+    position: absolute;
+    height: 37px;
+    width: 110px;
+    border-radius: 4px;
+    border: none;
+    z-index: 1;
+    top: 33%;
+    left: 20;
+    left: 79%;
+}
+.AddtoCart:hover{
+    background-color:rgb(174, 243, 174) ;
+}
+.removetoCart {
+    position: absolute;
+    height: 37px;
+    width: 110px;
+    border-radius: 4px;
+    border: none;
+    z-index: 1;
+    top: 33%;
+    left: 20;
+    left: 79%;
+    visibility: hidden;
+}
+
+.removetoCart:hover{
+    background-color:rgb(174, 243, 174) ;
+}
